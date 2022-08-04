@@ -41,5 +41,4 @@ kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo2, angle[2])
 kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo3, angle[3])
 kitronik_i2c_16_servo.servoWrite(kitronik_i2c_16_servo.Servos.Servo4, angle[4])
 mp = 1
-basic.showString("" + convertToText(mp) + "=" + convertToText(angle[mp]))
 basic.showNumber(mp)
